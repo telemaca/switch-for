@@ -7,7 +7,7 @@ const numberAmount = Number(prompt(`¿Cuántos números desea ingresar?`))
 
 let numberChosen = Number("");
 let biggestNumber = numberChosen;
-let smallestNumber = 1000000000000000000000000000000000;
+let smallestNumber = Infinity;
 
 if (smallestOrBiggest === "mayor") {
 
